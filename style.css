@@ -1,0 +1,102 @@
+.attribution {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4e7da;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  color: #703c2f;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  margin-top: 1rem;
+  width: 90%;
+  max-width: 30%;
+  color: #703c2f;
+  border-radius: 1rem;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+}
+
+.recipe-card {
+  text-align: left;
+}
+
+.recipe-image {
+  width: 100%;
+  border-radius: 1.2rem;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin: 2rem 0;
+  margin-bottom: 0;
+  color: #333;
+}
+
+.description {
+  font-size: small;
+  margin-bottom: 0rem;
+  text-align: justify;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 2rem 0 1rem;
+}
+
+.prep-time {
+  background: #fef6fc;
+  padding: 0.9rem;
+  border-radius: 1rem;
+  margin: 0rem;
+  margin-top: 0.7rem;
+}
+
+ul,
+ol {
+  font-size: small;
+  margin: 0 0 0 2rem;
+  padding: 0;
+  text-align: justify;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+.nutrition table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.nutrition th,
+.nutrition td {
+  font-size: small;
+  text-align: left;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  font-weight: bold;
+}
+
+.nutrition th {
+  font-weight: lighter;
+}
